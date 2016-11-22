@@ -156,6 +156,7 @@ GEM
       mimemagic (= 0.3.0)
     paranoia (2.1.5)
       activerecord (~> 4.0)
+    pg (0.19.0)
     polyamorous (1.3.1)
       activerecord (>= 3.0)
     polyglot (0.3.5)
@@ -287,7 +288,6 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    sqlite3 (1.3.12)
     state_machines (0.4.0)
     state_machines-activemodel (0.4.0)
       activemodel (>= 4.1, < 5.1)
@@ -336,6 +336,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   letter_opener_web
+  pg
   puma
   rails (~> 4.2.5)
   sass-rails (~> 5.0)
@@ -344,7 +345,6 @@ DEPENDENCIES
   spree_auth_devise (~> 3.1.0)
   spree_gateway (~> 3.1.0)
   spring
-  sqlite3
   turbolinks
   uglifier (>= 1.3.0)
   unicorn
